@@ -51,7 +51,7 @@ svg.iconbottom:hover {
 	font-family: "Public Sans", sans-serif;
 	color: #36536b;
 	padding-right: 35px;
-	padding-left: 10px;
+	padding-left: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	width: 12%;
@@ -91,7 +91,7 @@ svg.iconbottom:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 300px;
+    gap: 150px;
     padding: 35px;
 }
 
@@ -100,15 +100,76 @@ svg.iconbottom:hover {
     flex-direction: row;
     justify-content: end;
     align-items: center;
+    width: -webkit-fill-available;
 }
 
 .payments {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: max-content;
     height: max-content;
 }
 
+.payments h2 {
+    font-family: "Public Sans", sans-serif;
+    color: #36536b;
+}
+
+.payments p {
+    font-family: "Public Sans", sans-serif;
+    color: #6C8294;
+}
+
 .icon {
-    
+    height: 100px;
+}
+
+.banking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+}
+
+.banking h2 {
+    font-family: "Public Sans", sans-serif;
+    color: #36536b;
+}
+
+.banking p {
+    font-family: "Public Sans", sans-serif;
+    color: #6C8294;
+}
+
+.finances {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+}
+
+.finances h2 {
+    font-family: "Public Sans", sans-serif;
+    color: #36536b;
+}
+
+.finances p {
+    font-family: "Public Sans", sans-serif;
+    color: #6C8294;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;  
+    gap: 9px;
 }
