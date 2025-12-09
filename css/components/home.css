@@ -1,7 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap");
+
 .workwith {
-    background-color: black;
+	background-color: black;
 }
 
 .workwith2 {
-    background-color: black;
+	background-color: black;
+}
+
+.navbar2 {
+	font-family: "Public Sans", sans-serif;
+	background-color: #1b262f;
+	padding: 15px;
+	padding-left: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	gap: 50px;
+}
+
+.logobottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: end;
+	gap: 50px;
+	padding-left: 750px;
+}
+
+svg.iconbottom {
+	color: #fbfcfe;
+}
+
+svg.iconbottom:hover {
+	color: #da6d97;
+}
+
+.navlink2 {
+	color: #fbfcfe;
+	text-decoration: none;
+}
+
+.navlink2:hover {
+	color: #da6d97;
+}
+
+.emailenter {
+	font-family: "Public Sans", sans-serif;
+	color: #36536b;
+	padding-right: 35px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 12%;
+	border-radius: 9999px;
+	background-color: #fbfcfe;
+	border: none;
+	outline-color: #1b262f;
+	box-shadow: 4px 3px 19px 0px rgba(54, 83, 107, 0.66);
+    font-size: 20px;
+    width: 52%;
+}
+
+.scheduledemo {
+	background-color: #ba4270;
+	color: #fbfcfe;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 9999px;
+	border: none;
+    font-size: 20px;
+}
+
+.scheduledemo:hover {
+	background-color: #da6d97;
+}
+
+.readytostart {
+    font-family: font-family: "DM Serif Display", serif;
+    color: #36536B;
+    font-size: 75px
+}
+
+.ready {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 35px;
+}
+
+.lowboy {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.payments {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+}
+
+.icon {
+    
 }
