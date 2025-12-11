@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap");
+
+:root {
+	--dark-pink: #ba4270;
+	--san-juan-blue: #36536b;
+
+	color: var(--san-juan-blue);
+	font-family: "Public Sans", sans-serif;
+}
+
+h1.large {
+	font-size: 72px;
+	line-height: 72px;
+}
